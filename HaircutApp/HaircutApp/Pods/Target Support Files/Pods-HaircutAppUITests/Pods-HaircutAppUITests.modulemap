@@ -1,0 +1,6 @@
+framework module Pods_HaircutAppUITests {
+  umbrella header "Pods-HaircutAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
