@@ -24,6 +24,8 @@ class SignUpScreen: UIViewController, UITextFieldDelegate {
         self.nameField.delegate = self
         self.emailField.delegate = self
         self.passwordField.delegate = self
+        self.passwordField.isSecureTextEntry = true
+
         
         databaseRef = Database.database().reference().child("authUsers")
     }

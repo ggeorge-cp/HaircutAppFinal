@@ -25,6 +25,7 @@ class LoginScreen: UIViewController, UITextFieldDelegate {
         
         self.emailField.delegate = self
         self.passwordField.delegate = self
+        self.passwordField.isSecureTextEntry = true
         
         databaseRef = Database.database().reference()
     }
